@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Illuminati Networks MCP server — drive VPS, proxies, and CDN/object-storage from any MCP client (Claude, etc.).",
   "license": "MIT",
+  "author": "Illuminati Networks (https://illuminatinetworks.com)",
+  "homepage": "https://github.com/Illuminati-Networks/illuminati-mcp#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/Illuminati-Networks/illuminati-mcp.git" },
+  "bugs": { "url": "https://github.com/Illuminati-Networks/illuminati-mcp/issues" },
   "type": "module",
   "bin": {
     "illuminati-mcp": "./dist/index.js"
