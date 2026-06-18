@@ -1,0 +1,31 @@
+{
+  "name": "@illuminatinetworks/mcp",
+  "version": "1.0.0",
+  "description": "Illuminati Networks MCP server — drive VPS, proxies, and CDN/object-storage from any MCP client (Claude, etc.).",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "illuminati-mcp": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "start": "node dist/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@illuminatinetworks/sdk": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "^5.6.0"
+  }
+}
