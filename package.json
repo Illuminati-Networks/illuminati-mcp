@@ -1,6 +1,6 @@
 {
   "name": "@illuminatinetworks/mcp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Illuminati Networks MCP server — drive VPS, proxies, and CDN/object-storage from any MCP client (Claude, etc.).",
   "license": "MIT",
   "author": "Illuminati Networks (https://illuminatinetworks.com)",
@@ -25,7 +25,7 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@illuminatinetworks/sdk": "^1.0.0",
+    "@illuminatinetworks/sdk": "^1.1.0",
     "@modelcontextprotocol/sdk": "^1.0.4"
   },
   "devDependencies": {
